@@ -13,7 +13,7 @@ const IntroScreen = ({ onComplete }: { onComplete: () => void }) => {
     document.head.appendChild(link);
 
     // 2. 사운드 준비
-    const audio = new Audio('/intro.mp3');
+    const audio = new Audio('./intro.mp3');
     audio.volume = 0.5;
     audioRef.current = audio;
 
