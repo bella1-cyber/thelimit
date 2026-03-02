@@ -4,7 +4,7 @@ const ContestantsSection = () => {
   const contestants = [
     {
       name: '라이언 카터',
-      image: '/images/ryan.jpg',
+      image: './images/ryan.jpg',
       age: 24,
       nationality: '🇺🇸 USA',
       occupation: 'NFL 선수',
@@ -21,7 +21,7 @@ const ContestantsSection = () => {
     },
     {
       name: '디에고 실바',
-      image: '/images/diego.jpg',
+      image: './images/diego.jpg',
       age: 26,
       nationality: '🇪🇸 Spain',
       occupation: '모델 / 댄서',
@@ -38,7 +38,7 @@ const ContestantsSection = () => {
     },
     {
       name: '엘리아스 바그너',
-      image: '/images/elias.jpg',
+      image: './images/elias.jpg',
       age: 25,
       nationality: '🇩🇪 Germany',
       occupation: '건축가',
@@ -55,7 +55,7 @@ const ContestantsSection = () => {
     },
     {
       name: '조던 헤이즈',
-      image: '/images/jordan.jpg',
+      image: './images/jordan.jpg',
       age: 27,
       nationality: '🇬🇧 UK',
       occupation: '복싱 트레이너',
@@ -72,7 +72,7 @@ const ContestantsSection = () => {
     },
     {
       name: '소피아 이바노프',
-      image: '/images/sophia.jpg',
+      image: './images/sophia.jpg',
       age: 23,
       nationality: '🇷🇺 Russia',
       occupation: '인플루언서',
@@ -89,7 +89,7 @@ const ContestantsSection = () => {
     },
     {
       name: '자라 로랑',
-      image: '/images/zara.jpg',
+      image: './images/zara.jpg',
       age: 24,
       nationality: '🇫🇷 France',
       occupation: '패션 바이어',
