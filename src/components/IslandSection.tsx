@@ -7,7 +7,7 @@ const IslandSection = () => {
       {/* 배경 수정: 흐림 제거, 어두운 막 줄임 */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/images/island-bg.jpg" 
+          src="./images/island-bg.jpg" 
           alt="Island Background" 
           className="w-full h-full object-cover scale-105" 
         />
